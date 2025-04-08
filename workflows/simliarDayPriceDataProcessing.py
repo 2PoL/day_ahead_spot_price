@@ -73,7 +73,7 @@ engine = create_engine(f'postgresql+psycopg2://{db_username}:{db_password}@{db_h
 query = "SELECT * FROM day_ahead_marginal_data;"
 df = pd.read_sql_query(query, engine)
 
-similar_df = find_similar_clearing_prices(df, target_date, tolerance=1.0, lookback_days=30)
+similar_df = find_similar_clearing_prices(df, target_date, tolerance=1.0)
 
 print(similar_df.head())
 # 设置路径
