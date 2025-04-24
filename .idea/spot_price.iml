@@ -4,6 +4,8 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/models" />
+      <excludeFolder url="file://$MODULE_DIR$/main/.ipynb_checkpoints" />
+      <excludeFolder url="file://$MODULE_DIR$/model" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.13 (day_ahead_spot_price)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
